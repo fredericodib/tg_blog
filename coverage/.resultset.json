@@ -1,0 +1,244 @@
+{
+  "Cucumber Features": {
+    "coverage": {
+      "/Users/fredericodib/Documents/UNB/TG/tg_blog/lib/jwt.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/fredericodib/Documents/UNB/TG/tg_blog/app/channels/application_cable/channel.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/fredericodib/Documents/UNB/TG/tg_blog/app/channels/application_cable/connection.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/fredericodib/Documents/UNB/TG/tg_blog/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          1,
+          0,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/fredericodib/Documents/UNB/TG/tg_blog/app/controllers/authentication_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          null,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/fredericodib/Documents/UNB/TG/tg_blog/app/controllers/posts_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          null,
+          2,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/fredericodib/Documents/UNB/TG/tg_blog/app/controllers/users_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/fredericodib/Documents/UNB/TG/tg_blog/app/jobs/application_job.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/fredericodib/Documents/UNB/TG/tg_blog/app/mailers/application_mailer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/fredericodib/Documents/UNB/TG/tg_blog/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/fredericodib/Documents/UNB/TG/tg_blog/app/models/post.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/fredericodib/Documents/UNB/TG/tg_blog/app/models/user.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          0,
+          null
+        ]
+      }
+    },
+    "timestamp": 1616690803
+  }
+}

@@ -16,6 +16,11 @@ gem 'puma', '~> 3.11'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# Use Json Web Token (JWT) for token based authentication
+gem 'jwt'
+# Use ActiveModel has_secure_password
+gem 'bcrypt', '~> 3.1.7'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
@@ -31,6 +36,13 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
+  gem 'rspec'
+  gem 'simplecov', require: false, group: :test
+  gem 'aquarium'
+  
+  gem 'bdd_generator', '1.0', git: "https://github.com/fredericodib/bdd_generator", branch: "main"
 end
 
 group :development do
