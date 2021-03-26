@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :posts, dependent: :destroy
   has_secure_password
   has_secure_token
   validates :email, presence: true, uniqueness: true

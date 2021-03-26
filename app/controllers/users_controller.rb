@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:show]
+  before_action :set_user, only: [:show, :posts]
 
   # GET /users
   def index
@@ -11,6 +11,10 @@ class UsersController < ApplicationController
   # GET /users/1
   def show
     render json: @user, except: [:token,:password_digest]
+  end
+
+  def posts
+    render json: @user.posts
   end
 
   def user
