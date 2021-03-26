@@ -27,3 +27,90 @@ User 5 {"id":5,"name":"caderno","email":"30caddeerno@edd.cccesdd","password_dige
 status: 200
 retorno:
 [{"id":1,"name":"caderno","email":"30caderno@edd.ccce","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z"},{"id":2,"name":"caderno","email":"30caderno@edd.ccces","created_at":"2021-03-25T17:13:28.047Z","updated_at":"2021-03-25T17:13:28.047Z"},{"id":4,"name":"caderno","email":"30caderno@edd.cccesdd","created_at":"2021-03-25T18:18:09.644Z","updated_at":"2021-03-25T18:18:09.644Z"},{"id":5,"name":"caderno","email":"30caddeerno@edd.cccesdd","created_at":"2021-03-26T01:06:30.157Z","updated_at":"2021-03-26T01:06:30.157Z"}]
+
+
+new_test:
+controller: posts
+action: index
+body: {"controller":"posts","action":"index"}
+headers: {}
+path: /posts
+method: GET
+data:
+Post 1 {"id":1,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:15:30.862Z","updated_at":"2021-03-26T01:15:30.862Z"}
+Post 2 {"id":2,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:15:55.574Z","updated_at":"2021-03-26T01:15:55.574Z"}
+Post 3 {"id":3,"title":"clarita caneca","body":"5000000","user_id":1,"created_at":"2021-03-26T01:16:11.064Z","updated_at":"2021-03-26T01:56:22.792Z"}
+Post 4 {"id":4,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:16:30.182Z","updated_at":"2021-03-26T01:16:30.182Z"}
+Post 6 {"id":6,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:19:09.166Z","updated_at":"2021-03-26T01:19:09.166Z"}
+Post 7 {"id":7,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:21:37.374Z","updated_at":"2021-03-26T01:21:37.374Z"}
+Post 8 {"id":8,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:21:54.125Z","updated_at":"2021-03-26T01:21:54.125Z"}
+Post 9 {"id":9,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:23:00.051Z","updated_at":"2021-03-26T01:23:00.051Z"}
+Post 10 {"id":10,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:26:32.424Z","updated_at":"2021-03-26T01:26:32.424Z"}
+Post 11 {"id":11,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:26:52.043Z","updated_at":"2021-03-26T01:26:52.043Z"}
+Post 12 {"id":12,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:27:04.396Z","updated_at":"2021-03-26T01:27:04.396Z"}
+Post 13 {"id":13,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:46:33.845Z","updated_at":"2021-03-26T01:46:33.845Z"}
+User 1 {"id":1,"name":"caderno","email":"30caderno@edd.ccce","password_digest":"$2a$12$sFVhoXzJBW/sybU11jEvnOorslBRzrUTaNI7lLBx.qD8oSLf02gaW","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z","token":"7MbgdG267eggnb6z15746yhJ"}
+User 2 {"id":2,"name":"caderno","email":"30caderno@edd.ccces","password_digest":"$2a$12$Z5fCMhve9qKIT8UVIK8ryeLXko/FtQ/WiTu4omRvpYgXXPJ3qKyqy","created_at":"2021-03-25T17:13:28.047Z","updated_at":"2021-03-25T17:13:28.047Z","token":"7phG9w2oN3Aehs7pFRxHvpq3"}
+User 4 {"id":4,"name":"caderno","email":"30caderno@edd.cccesdd","password_digest":"$2a$12$bg4w6sHJ/DeveCWp6oE/IepD.Smq5WF27A/gYNvi66uU/I8/LVVTC","created_at":"2021-03-25T18:18:09.644Z","updated_at":"2021-03-25T18:18:09.644Z","token":"tiEPFbRA2U5PUvvtJCioWFLi"}
+User 5 {"id":5,"name":"caderno","email":"30caddeerno@edd.cccesdd","password_digest":"$2a$12$gFYnpxWdcpE8fjtvWXXfuOOgwcO9TvLeS0lDTX.uWEI5ir3uZWt1u","created_at":"2021-03-26T01:06:30.157Z","updated_at":"2021-03-26T01:06:30.157Z","token":"vGcv7wwDVT9mzthYXvJLoZSQ"}
+status: 200
+retorno:
+[{"id":1,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:15:30.862Z","updated_at":"2021-03-26T01:15:30.862Z","user":{"id":1,"name":"caderno","email":"30caderno@edd.ccce","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z"}},{"id":2,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:15:55.574Z","updated_at":"2021-03-26T01:15:55.574Z","user":{"id":1,"name":"caderno","email":"30caderno@edd.ccce","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z"}},{"id":3,"title":"clarita caneca","body":"5000000","user_id":1,"created_at":"2021-03-26T01:16:11.064Z","updated_at":"2021-03-26T01:56:22.792Z","user":{"id":1,"name":"caderno","email":"30caderno@edd.ccce","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z"}},{"id":4,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:16:30.182Z","updated_at":"2021-03-26T01:16:30.182Z","user":{"id":1,"name":"caderno","email":"30caderno@edd.ccce","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z"}},{"id":6,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:19:09.166Z","updated_at":"2021-03-26T01:19:09.166Z","user":{"id":1,"name":"caderno","email":"30caderno@edd.ccce","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z"}},{"id":7,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:21:37.374Z","updated_at":"2021-03-26T01:21:37.374Z","user":{"id":1,"name":"caderno","email":"30caderno@edd.ccce","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z"}},{"id":8,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:21:54.125Z","updated_at":"2021-03-26T01:21:54.125Z","user":{"id":1,"name":"caderno","email":"30caderno@edd.ccce","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z"}},{"id":9,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:23:00.051Z","updated_at":"2021-03-26T01:23:00.051Z","user":{"id":1,"name":"caderno","email":"30caderno@edd.ccce","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z"}},{"id":10,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:26:32.424Z","updated_at":"2021-03-26T01:26:32.424Z","user":{"id":1,"name":"caderno","email":"30caderno@edd.ccce","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z"}},{"id":11,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:26:52.043Z","updated_at":"2021-03-26T01:26:52.043Z","user":{"id":1,"name":"caderno","email":"30caderno@edd.ccce","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z"}},{"id":12,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:27:04.396Z","updated_at":"2021-03-26T01:27:04.396Z","user":{"id":1,"name":"caderno","email":"30caderno@edd.ccce","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z"}},{"id":13,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:46:33.845Z","updated_at":"2021-03-26T01:46:33.845Z","user":{"id":1,"name":"caderno","email":"30caderno@edd.ccce","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z"}}]
+
+
+new_test:
+controller: comments
+action: index
+body: {"controller":"comments","action":"index","post_id":"1"}
+headers: {}
+path: /posts/1/comments
+method: GET
+data:
+Post 1 {"id":1,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:15:30.862Z","updated_at":"2021-03-26T01:15:30.862Z"}
+Post 2 {"id":2,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:15:55.574Z","updated_at":"2021-03-26T01:15:55.574Z"}
+Post 3 {"id":3,"title":"clarita caneca","body":"5000000","user_id":1,"created_at":"2021-03-26T01:16:11.064Z","updated_at":"2021-03-26T01:56:22.792Z"}
+Post 4 {"id":4,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:16:30.182Z","updated_at":"2021-03-26T01:16:30.182Z"}
+Post 6 {"id":6,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:19:09.166Z","updated_at":"2021-03-26T01:19:09.166Z"}
+Post 7 {"id":7,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:21:37.374Z","updated_at":"2021-03-26T01:21:37.374Z"}
+Post 8 {"id":8,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:21:54.125Z","updated_at":"2021-03-26T01:21:54.125Z"}
+Post 9 {"id":9,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:23:00.051Z","updated_at":"2021-03-26T01:23:00.051Z"}
+Post 10 {"id":10,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:26:32.424Z","updated_at":"2021-03-26T01:26:32.424Z"}
+Post 11 {"id":11,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:26:52.043Z","updated_at":"2021-03-26T01:26:52.043Z"}
+Post 12 {"id":12,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:27:04.396Z","updated_at":"2021-03-26T01:27:04.396Z"}
+Post 13 {"id":13,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:46:33.845Z","updated_at":"2021-03-26T01:46:33.845Z"}
+User 1 {"id":1,"name":"caderno","email":"30caderno@edd.ccce","password_digest":"$2a$12$sFVhoXzJBW/sybU11jEvnOorslBRzrUTaNI7lLBx.qD8oSLf02gaW","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z","token":"7MbgdG267eggnb6z15746yhJ"}
+User 2 {"id":2,"name":"caderno","email":"30caderno@edd.ccces","password_digest":"$2a$12$Z5fCMhve9qKIT8UVIK8ryeLXko/FtQ/WiTu4omRvpYgXXPJ3qKyqy","created_at":"2021-03-25T17:13:28.047Z","updated_at":"2021-03-25T17:13:28.047Z","token":"7phG9w2oN3Aehs7pFRxHvpq3"}
+User 4 {"id":4,"name":"caderno","email":"30caderno@edd.cccesdd","password_digest":"$2a$12$bg4w6sHJ/DeveCWp6oE/IepD.Smq5WF27A/gYNvi66uU/I8/LVVTC","created_at":"2021-03-25T18:18:09.644Z","updated_at":"2021-03-25T18:18:09.644Z","token":"tiEPFbRA2U5PUvvtJCioWFLi"}
+User 5 {"id":5,"name":"caderno","email":"30caddeerno@edd.cccesdd","password_digest":"$2a$12$gFYnpxWdcpE8fjtvWXXfuOOgwcO9TvLeS0lDTX.uWEI5ir3uZWt1u","created_at":"2021-03-26T01:06:30.157Z","updated_at":"2021-03-26T01:06:30.157Z","token":"vGcv7wwDVT9mzthYXvJLoZSQ"}
+status: 200
+retorno:
+[]
+
+
+new_test:
+controller: posts
+action: create
+body: {"post":{"title":"caderno","body":"text text"},"controller":"posts","action":"create"}
+headers: {"Authorization":"7MbgdG267eggnb6z15746yhJ"}
+path: /posts
+method: POST
+data:
+Post 1 {"id":1,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:15:30.862Z","updated_at":"2021-03-26T01:15:30.862Z"}
+Post 2 {"id":2,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:15:55.574Z","updated_at":"2021-03-26T01:15:55.574Z"}
+Post 3 {"id":3,"title":"clarita caneca","body":"5000000","user_id":1,"created_at":"2021-03-26T01:16:11.064Z","updated_at":"2021-03-26T01:56:22.792Z"}
+Post 4 {"id":4,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:16:30.182Z","updated_at":"2021-03-26T01:16:30.182Z"}
+Post 6 {"id":6,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:19:09.166Z","updated_at":"2021-03-26T01:19:09.166Z"}
+Post 7 {"id":7,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:21:37.374Z","updated_at":"2021-03-26T01:21:37.374Z"}
+Post 8 {"id":8,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:21:54.125Z","updated_at":"2021-03-26T01:21:54.125Z"}
+Post 9 {"id":9,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:23:00.051Z","updated_at":"2021-03-26T01:23:00.051Z"}
+Post 10 {"id":10,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:26:32.424Z","updated_at":"2021-03-26T01:26:32.424Z"}
+Post 11 {"id":11,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:26:52.043Z","updated_at":"2021-03-26T01:26:52.043Z"}
+Post 12 {"id":12,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:27:04.396Z","updated_at":"2021-03-26T01:27:04.396Z"}
+Post 13 {"id":13,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:46:33.845Z","updated_at":"2021-03-26T01:46:33.845Z"}
+User 1 {"id":1,"name":"caderno","email":"30caderno@edd.ccce","password_digest":"$2a$12$sFVhoXzJBW/sybU11jEvnOorslBRzrUTaNI7lLBx.qD8oSLf02gaW","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z","token":"7MbgdG267eggnb6z15746yhJ"}
+User 2 {"id":2,"name":"caderno","email":"30caderno@edd.ccces","password_digest":"$2a$12$Z5fCMhve9qKIT8UVIK8ryeLXko/FtQ/WiTu4omRvpYgXXPJ3qKyqy","created_at":"2021-03-25T17:13:28.047Z","updated_at":"2021-03-25T17:13:28.047Z","token":"7phG9w2oN3Aehs7pFRxHvpq3"}
+User 4 {"id":4,"name":"caderno","email":"30caderno@edd.cccesdd","password_digest":"$2a$12$bg4w6sHJ/DeveCWp6oE/IepD.Smq5WF27A/gYNvi66uU/I8/LVVTC","created_at":"2021-03-25T18:18:09.644Z","updated_at":"2021-03-25T18:18:09.644Z","token":"tiEPFbRA2U5PUvvtJCioWFLi"}
+User 5 {"id":5,"name":"caderno","email":"30caddeerno@edd.cccesdd","password_digest":"$2a$12$gFYnpxWdcpE8fjtvWXXfuOOgwcO9TvLeS0lDTX.uWEI5ir3uZWt1u","created_at":"2021-03-26T01:06:30.157Z","updated_at":"2021-03-26T01:06:30.157Z","token":"vGcv7wwDVT9mzthYXvJLoZSQ"}
+status: 201
+retorno:
+{"id":17,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T19:16:34.336Z","updated_at":"2021-03-26T19:16:34.336Z","user":{"id":1,"name":"caderno","email":"30caderno@edd.ccce","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z"}}
