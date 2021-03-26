@@ -10,7 +10,7 @@ class PostsController < ApplicationController
 
   # GET /posts/1
   def show
-    render json: @post, include: :user, include: {user: {except:[:token,:password_digest]}}
+    render json: @post, include: {user: {except:[:token,:password_digest]}}
   end
 
   # POST /posts
