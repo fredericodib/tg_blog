@@ -2,6 +2,8 @@
 
 documentação https://documenter.getpostman.com/view/7547403/TzCJfV66
 
+![Modelo do banco](./robustoModel.png)
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 

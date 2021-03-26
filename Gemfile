@@ -41,6 +41,7 @@ group :development, :test do
   gem 'rspec'
   gem 'simplecov', require: false, group: :test
   gem 'aquarium'
+  gem 'rails-erd'
   
   gem 'bdd_generator', '1.0', git: "https://github.com/fredericodib/bdd_generator", branch: "main"
 end
