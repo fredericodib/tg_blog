@@ -340,3 +340,71 @@ User 5 {"id":5,"name":"caderno","email":"30caddeerno@edd.cccesdd","password_dige
 status: 200
 retorno:
 {"id":1,"name":"caderno","email":"30caderno@edd.ccce","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z"}
+
+
+new_test:
+controller: posts
+action: index
+body: {"controller":"posts","action":"index"}
+headers: {}
+path: /posts
+method: GET
+data:
+User 1 {"id":1,"name":"caderno","email":"30caderno@edd.ccce","password_digest":"$2a$12$sFVhoXzJBW/sybU11jEvnOorslBRzrUTaNI7lLBx.qD8oSLf02gaW","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z","token":"7MbgdG267eggnb6z15746yhJ"}
+User 2 {"id":2,"name":"caderno","email":"30caderno@edd.ccces","password_digest":"$2a$12$Z5fCMhve9qKIT8UVIK8ryeLXko/FtQ/WiTu4omRvpYgXXPJ3qKyqy","created_at":"2021-03-25T17:13:28.047Z","updated_at":"2021-03-25T17:13:28.047Z","token":"7phG9w2oN3Aehs7pFRxHvpq3"}
+User 4 {"id":4,"name":"caderno","email":"30caderno@edd.cccesdd","password_digest":"$2a$12$bg4w6sHJ/DeveCWp6oE/IepD.Smq5WF27A/gYNvi66uU/I8/LVVTC","created_at":"2021-03-25T18:18:09.644Z","updated_at":"2021-03-25T18:18:09.644Z","token":"tiEPFbRA2U5PUvvtJCioWFLi"}
+User 5 {"id":5,"name":"caderno","email":"30caddeerno@edd.cccesdd","password_digest":"$2a$12$gFYnpxWdcpE8fjtvWXXfuOOgwcO9TvLeS0lDTX.uWEI5ir3uZWt1u","created_at":"2021-03-26T01:06:30.157Z","updated_at":"2021-03-26T01:06:30.157Z","token":"vGcv7wwDVT9mzthYXvJLoZSQ"}
+status: 200
+retorno:
+[]
+
+
+new_test:
+controller: posts
+action: create
+body: {"post":{"title":"caderno","body":"text text"},"controller":"posts","action":"create"}
+headers: {"Authorization":"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2MTY3NzQyMjF9.G5s2VuB8xRkSa7Ve5WsldVwIDEYUv3L4yfcJZ36cEwA"}
+path: /posts
+method: POST
+data:
+User 1 {"id":1,"name":"caderno","email":"30caderno@edd.ccce","password_digest":"$2a$12$sFVhoXzJBW/sybU11jEvnOorslBRzrUTaNI7lLBx.qD8oSLf02gaW","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z","token":"7MbgdG267eggnb6z15746yhJ"}
+User 2 {"id":2,"name":"caderno","email":"30caderno@edd.ccces","password_digest":"$2a$12$Z5fCMhve9qKIT8UVIK8ryeLXko/FtQ/WiTu4omRvpYgXXPJ3qKyqy","created_at":"2021-03-25T17:13:28.047Z","updated_at":"2021-03-25T17:13:28.047Z","token":"7phG9w2oN3Aehs7pFRxHvpq3"}
+User 4 {"id":4,"name":"caderno","email":"30caderno@edd.cccesdd","password_digest":"$2a$12$bg4w6sHJ/DeveCWp6oE/IepD.Smq5WF27A/gYNvi66uU/I8/LVVTC","created_at":"2021-03-25T18:18:09.644Z","updated_at":"2021-03-25T18:18:09.644Z","token":"tiEPFbRA2U5PUvvtJCioWFLi"}
+User 5 {"id":5,"name":"caderno","email":"30caddeerno@edd.cccesdd","password_digest":"$2a$12$gFYnpxWdcpE8fjtvWXXfuOOgwcO9TvLeS0lDTX.uWEI5ir3uZWt1u","created_at":"2021-03-26T01:06:30.157Z","updated_at":"2021-03-26T01:06:30.157Z","token":"vGcv7wwDVT9mzthYXvJLoZSQ"}
+status: 422
+retorno:
+{"user":["must exist"]}
+
+
+new_test:
+controller: posts
+action: index
+body: {"controller":"posts","action":"index"}
+headers: {"Authorization":"7MbgdG267eggnb6z15746yhJ"}
+path: /posts
+method: GET
+data:
+User 1 {"id":1,"name":"caderno","email":"30caderno@edd.ccce","password_digest":"$2a$12$sFVhoXzJBW/sybU11jEvnOorslBRzrUTaNI7lLBx.qD8oSLf02gaW","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z","token":"7MbgdG267eggnb6z15746yhJ"}
+User 2 {"id":2,"name":"caderno","email":"30caderno@edd.ccces","password_digest":"$2a$12$Z5fCMhve9qKIT8UVIK8ryeLXko/FtQ/WiTu4omRvpYgXXPJ3qKyqy","created_at":"2021-03-25T17:13:28.047Z","updated_at":"2021-03-25T17:13:28.047Z","token":"7phG9w2oN3Aehs7pFRxHvpq3"}
+User 4 {"id":4,"name":"caderno","email":"30caderno@edd.cccesdd","password_digest":"$2a$12$bg4w6sHJ/DeveCWp6oE/IepD.Smq5WF27A/gYNvi66uU/I8/LVVTC","created_at":"2021-03-25T18:18:09.644Z","updated_at":"2021-03-25T18:18:09.644Z","token":"tiEPFbRA2U5PUvvtJCioWFLi"}
+User 5 {"id":5,"name":"caderno","email":"30caddeerno@edd.cccesdd","password_digest":"$2a$12$gFYnpxWdcpE8fjtvWXXfuOOgwcO9TvLeS0lDTX.uWEI5ir3uZWt1u","created_at":"2021-03-26T01:06:30.157Z","updated_at":"2021-03-26T01:06:30.157Z","token":"vGcv7wwDVT9mzthYXvJLoZSQ"}
+status: 200
+retorno:
+[]
+
+
+new_test:
+controller: posts
+action: create
+body: {"post":{"title":"caderno","body":"text text"},"controller":"posts","action":"create"}
+headers: {"Authorization":"7MbgdG267eggnb6z15746yhJ"}
+path: /posts
+method: POST
+data:
+User 1 {"id":1,"name":"caderno","email":"30caderno@edd.ccce","password_digest":"$2a$12$sFVhoXzJBW/sybU11jEvnOorslBRzrUTaNI7lLBx.qD8oSLf02gaW","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z","token":"7MbgdG267eggnb6z15746yhJ"}
+User 2 {"id":2,"name":"caderno","email":"30caderno@edd.ccces","password_digest":"$2a$12$Z5fCMhve9qKIT8UVIK8ryeLXko/FtQ/WiTu4omRvpYgXXPJ3qKyqy","created_at":"2021-03-25T17:13:28.047Z","updated_at":"2021-03-25T17:13:28.047Z","token":"7phG9w2oN3Aehs7pFRxHvpq3"}
+User 4 {"id":4,"name":"caderno","email":"30caderno@edd.cccesdd","password_digest":"$2a$12$bg4w6sHJ/DeveCWp6oE/IepD.Smq5WF27A/gYNvi66uU/I8/LVVTC","created_at":"2021-03-25T18:18:09.644Z","updated_at":"2021-03-25T18:18:09.644Z","token":"tiEPFbRA2U5PUvvtJCioWFLi"}
+User 5 {"id":5,"name":"caderno","email":"30caddeerno@edd.cccesdd","password_digest":"$2a$12$gFYnpxWdcpE8fjtvWXXfuOOgwcO9TvLeS0lDTX.uWEI5ir3uZWt1u","created_at":"2021-03-26T01:06:30.157Z","updated_at":"2021-03-26T01:06:30.157Z","token":"vGcv7wwDVT9mzthYXvJLoZSQ"}
+status: 201
+retorno:
+{"id":1,"title":"caderno","body":"text text","user_id":1,"created_at":"2021-03-26T01:15:30.862Z","updated_at":"2021-03-26T01:15:30.862Z","user":{"id":1,"name":"caderno","email":"30caderno@edd.ccce","password_digest":"$2a$12$sFVhoXzJBW/sybU11jEvnOorslBRzrUTaNI7lLBx.qD8oSLf02gaW","created_at":"2021-03-25T17:11:20.509Z","updated_at":"2021-03-25T17:11:20.509Z","token":"7MbgdG267eggnb6z15746yhJ"}}

@@ -1,43 +1,63 @@
 class PostsController < ApplicationController
-  before_action :authorize_request, only: [:create, :update, :destroy]
   before_action :set_post, only: [:show, :update, :destroy]
 
   # GET /posts
   def index
     @posts = Post.all
 
-    render json: @posts, include: :user
+    render json: @posts, include: {user: {except:[:token,:password_digest]}}
   end
 
   # GET /posts/1
   def show
-    render json: @post, include: :user
+    render json: @post, include: :user, include: {user: {except:[:token,:password_digest]}}
   end
 
   # POST /posts
   def create
-    @post = Post.new(post_params)
-    @post.user = @current_user
-
-    if @post.save
-      render json: @post, status: :created, location: @post, include: :user
+    unless @current_user 
+      render json: { errors: "Not Authenticated" }, status: :unauthorized
     else
-      render json: @post.errors, status: :unprocessable_entity
+      @post = Post.new(post_params)
+      @post.user = @current_user
+
+      if @post.save
+        render json: @post, status: :created, location: @post, include: {user: {except:[:token,:password_digest]}}
+      else
+        render json: @post.errors, status: :unprocessable_entity
+      end
     end
   end
 
   # PATCH/PUT /posts/1
   def update
-    if @post.update(post_params)
-      render json: @post
+    unless @current_user 
+      render json: { errors: "Not Authenticated" }, status: :unauthorized
     else
-      render json: @post.errors, status: :unprocessable_entity
+      if @post.user != @current_user
+        render json: { errors: "Dont have Permission" }, status: :unauthorized
+      else
+        if @post.update(post_params)
+          render json: @post
+        else
+          render json: @post.errors, status: :unprocessable_entity
+        end
+      end
     end
   end
 
   # DELETE /posts/1
   def destroy
-    @post.destroy
+    unless @current_user
+      render json: { errors: "Not Authenticated" }, status: :unauthorized
+    else
+      if @post.user != @current_user
+        render json: { errors: "Dont have Permission" }, status: :unauthorized
+      else
+        @post.destroy
+        render json: {}
+      end
+    end
   end
 
   private
