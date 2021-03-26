@@ -4,6 +4,11 @@
 # instead of editing this one. Cucumber will automatically load all features/**/*.rb
 # files.
 
+require 'simplecov'
+SimpleCov.start 'rails' do
+add_filter "/lib/bdd_generator_parser.rb"
+end
+
 require 'cucumber/rails'
 
 # frozen_string_literal: true

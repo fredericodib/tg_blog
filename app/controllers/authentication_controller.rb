@@ -13,9 +13,4 @@ class AuthenticationController < ApplicationController
     end
   end
 
-  private
-
-  def login_params
-    params.permit(:email, :password)
-  end
 end
