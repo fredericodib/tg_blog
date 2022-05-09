@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.1'
+ruby '2.5.9'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
@@ -30,20 +30,22 @@ gem 'bcrypt', '~> 3.1.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
+gem 'rack-cors'
+
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'cucumber-rails', require: false
-  gem 'database_cleaner'
-  gem 'rspec'
-  gem 'simplecov', require: false, group: :test
-  gem 'aquarium'
-  gem 'rails-erd'
+  # gem 'cucumber-rails', require: false
+  # gem 'database_cleaner'
+  # gem 'rspec'
+  # gem 'simplecov', require: false, group: :test
+  # gem 'aquarium'
+  # gem 'rails-erd'
   
-  gem 'bdd_generator', '1.0', git: "https://github.com/fredericodib/bdd_generator", branch: "main"
+  # gem 'bdd_generator', '1.0', git: "https://github.com/fredericodib/bdd_generator", branch: "main"
 end
 
 group :development do
